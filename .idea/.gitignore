@@ -1,0 +1,7 @@
+# Private data files
+friends_birtdays.csv
+env_verbs.py
+
+# Default ignored files
+/shelf/
+/workspace.xml
