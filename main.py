@@ -1,8 +1,13 @@
 import smtplib
 import pandas
 import datetime as dt
+from dotenv import load_dotenv
+import os
 from email.message import EmailMessage
-from data.env_verbs import PASSWORD, MY_EMAIL
+
+load_dotenv()
+MY_EMAIL = os.environ.get("MY_EMAIL")
+PASSWORD = os.environ.get("PASSWORD")
 
 
 def send_email(title, content, email_address):

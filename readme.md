@@ -14,12 +14,12 @@ This project is written in Python
 
 ## Instructions
 
-1. Create a file called '/data/env_verbs.py' 
+1. Create a '.env' file in the root of the project
     for security
     with your email and password (generated from your account for your app):
     ```commandline
-    PASSWORD = "dfgjkdgsd"
-    MY_EMAIL = "myaccount@gmail.com"
+    PASSWORD=dfgjkdgsd
+    MY_EMAIL=myaccount@gmail.com
     ```
 
 2. Create a file called '/data/friend_birthdays.csv' and save all your friends data there.
